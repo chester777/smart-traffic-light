@@ -1,1 +1,0 @@
-cmd_/home/david/study/trafficLight/LED/LED.ko := /usr/bin/arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/david/study/trafficLight/LED/LED.ko /home/david/study/trafficLight/LED/LED.o /home/david/study/trafficLight/LED/LED.mod.o

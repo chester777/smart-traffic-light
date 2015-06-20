@@ -1,1 +1,0 @@
-cmd_/home/david/study/trafficLight/speaker/speaker.ko := /usr/bin/arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/david/study/trafficLight/speaker/speaker.ko /home/david/study/trafficLight/speaker/speaker.o /home/david/study/trafficLight/speaker/speaker.mod.o
