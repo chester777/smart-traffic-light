@@ -1,0 +1,5 @@
+/home/david/study/trafficLight/ultrasonic/ultra.c:8:22: fatal error: sys/time.h: No such file or directory
+compilation terminated.
+make[2]: *** [/home/david/study/trafficLight/ultrasonic/ultra.o] Error 1
+make[1]: *** [_module_/home/david/study/trafficLight/ultrasonic] Error 2
+make: *** [defulat] Error 2

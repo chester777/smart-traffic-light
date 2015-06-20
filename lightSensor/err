@@ -1,0 +1,19 @@
+/home/david/study/trafficLight/lightSensor/light.c: In function ‘light_isr’:
+/home/david/study/trafficLight/lightSensor/light.c:45:1: warning: no return statement in function returning non-void [-Wreturn-type]
+/home/david/study/trafficLight/lightSensor/light.c: In function ‘init_light’:
+/home/david/study/trafficLight/lightSensor/light.c:50:2: error: ‘led_pin’ undeclared (first use in this function)
+/home/david/study/trafficLight/lightSensor/light.c:50:2: note: each undeclared identifier is reported only once for each function it appears in
+/home/david/study/trafficLight/lightSensor/light.c: At top level:
+/home/david/study/trafficLight/lightSensor/light.c:87:12: error: ‘lihgt_release’ undeclared here (not in a function)
+/home/david/study/trafficLight/lightSensor/light.c: In function ‘light_init’:
+/home/david/study/trafficLight/lightSensor/light.c:98:21: error: ‘speaker_fops’ undeclared (first use in this function)
+/home/david/study/trafficLight/lightSensor/light.c:101:2: error: implicit declaration of function ‘init_lihgt’ [-Werror=implicit-function-declaration]
+/home/david/study/trafficLight/lightSensor/light.c:102:2: error: implicit declaration of function ‘request_irq’ [-Werror=implicit-function-declaration]
+/home/david/study/trafficLight/lightSensor/light.c:102:38: error: ‘IRQF_TRIGGER_FALLING’ undeclared (first use in this function)
+/home/david/study/trafficLight/lightSensor/light.c:105:3: error: implicit declaration of function ‘ret_irq’ [-Werror=implicit-function-declaration]
+/home/david/study/trafficLight/lightSensor/light.c: At top level:
+/home/david/study/trafficLight/lightSensor/light.c:78:12: warning: ‘light_release’ defined but not used [-Wunused-function]
+cc1: some warnings being treated as errors
+make[2]: *** [/home/david/study/trafficLight/lightSensor/light.o] Error 1
+make[1]: *** [_module_/home/david/study/trafficLight/lightSensor] Error 2
+make: *** [defulat] Error 2

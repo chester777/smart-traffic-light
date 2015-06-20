@@ -1,0 +1,1 @@
+cmd_/home/david/study/trafficLight/ultrasonic/ultra.ko := /usr/bin/arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/david/study/trafficLight/ultrasonic/ultra.ko /home/david/study/trafficLight/ultrasonic/ultra.o /home/david/study/trafficLight/ultrasonic/ultra.mod.o
